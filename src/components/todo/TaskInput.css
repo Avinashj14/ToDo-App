@@ -1,0 +1,15 @@
+.search-input {
+    background-color: rgb(222, 242, 255);
+    color: rgb(18, 37, 53);
+    outline: none;
+  }
+  
+  .btn-add {
+  
+    background-color: orange !important;
+    color: aliceblue !important;
+    border: none;
+    height: 100%;
+    right: 0;
+  }
+  

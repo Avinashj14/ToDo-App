@@ -1,0 +1,99 @@
+.search-input {
+    background-color: rgb(222, 242, 255);
+    color: rgb(18, 37, 53);
+    outline: none;
+  }
+  
+  ::placeholder {
+    color: rgb(18, 37, 53);
+    opacity: 0.6;
+    font-weight: 500;
+  }
+  
+  .btn-add {
+    position: absolute;
+    background-color: orange !important;
+    color: aliceblue !important;
+    border: none;
+    height: 100%;
+    right: 0;
+  }
+  
+.task-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: large;
+  }
+  
+  .task-list li {
+    font-weight: 500;
+    padding: 10px 10px 10px 40px;
+    line-height: 20px;
+    position: relative;
+
+  }
+  
+  .task-list li::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/10914/10914351.png);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    top: 9px;
+    left: 9px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .task-list li.checked {
+    text-decoration: line-through; 
+    color: #555; 
+  }
+
+  .custom-checkbox {
+    position: absolute;
+    left: 8px; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border:none;
+    border-radius:50%
+  }
+  
+  .custom-checkbox img {
+    width: 28px;
+    height: 28px;
+    display: block;
+    border: none; 
+    border-radius:50%;
+  }
+  
+  .checkbox-placeholder {
+    width: 28px;
+    height: 28px;
+    border: none;
+  }
+  
+ 
+  
+  .task-list button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 12px;
+    text-align: center;
+    color: orange;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-list button:hover {
+    background-color: orange;
+    color: white;
+  }
+  
